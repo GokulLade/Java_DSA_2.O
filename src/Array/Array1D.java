@@ -7,8 +7,8 @@ public class Array1D {
         int a[]={10,20,30};
 
         int b[]=new int[2];
-        b[0]= 40;
-        b[1]= 50;
+        b[0]= 30;
+        b[1]= 40;
 
 
         //Simple printing
