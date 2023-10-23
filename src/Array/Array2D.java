@@ -4,7 +4,7 @@ public class Array2D {
     public static void main(String[] args)
     {
         //2D Array Declaration
-        int a[][]={{20,30,40,50},{10,40},{11,22,33}}; //Jagged Array
+        int a[][]={{10,20,30,40},{50,60},{70,80,90}}; //Jagged Array
 
         //Simple Printing
         System.out.println(a[0][0]);
