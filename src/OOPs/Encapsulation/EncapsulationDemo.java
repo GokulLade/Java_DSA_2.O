@@ -10,8 +10,8 @@ public class EncapsulationDemo {
 
 //Class is the best Example of Encapsulation
 class EncapDemo{
-    private int a=20;
-    private int b=40;
+    private final int a=20;
+    private final int b=40;
 
     public void add()
     {
