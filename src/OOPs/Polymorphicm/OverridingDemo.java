@@ -1,7 +1,5 @@
 package OOPs.Polymorphicm;
 
-import java.util.Scanner;
-
 public class OverridingDemo {
     public static void main(String[] args)
     {
