@@ -32,7 +32,14 @@ class ASMD_Operations extends Input{
             System.out.println("The addition of two number is = "+(a+b));
             sub();
             mul();
-            div();
+            try //Exception Handling using try catch
+            {
+                div();
+            }
+            catch (ArithmeticException e)
+            {
+                System.out.println(a+" is Not Divided by "+b);
+            }
         }
 
     void sub()
