@@ -32,7 +32,7 @@ class Person{
 
     }
 
-    static class VillageInfo{
+    static class VillageInfo {
         void villageInfo1()
         {
             String vn="Kalamebeshor";
