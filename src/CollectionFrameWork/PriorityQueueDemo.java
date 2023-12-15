@@ -13,7 +13,7 @@ public class PriorityQueueDemo {
         pq.add(100);
         pq.add(10); //Allow Duplication
 
-//        pq.add("Gokul"); Mixed are not allow
+//        pq.add("Gokul"); Mixed Datatype are not allow
 
         System.out.println(pq);
 
