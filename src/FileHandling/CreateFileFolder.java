@@ -56,6 +56,25 @@ public class CreateFileFolder {
             }
         }
 
+        //Create file-3 for storing objects
+
+        String fileName3 ="Object.txt";
+        File file3 = new File(dirName,fileName3);
+        if(file3.exists())
+        {
+            System.out.println("The file is already exists..");
+        }
+        else {
+            try {
+                file3.createNewFile();
+                System.out.println("The Object file is created..");
+            }
+            catch (IOException e)
+            {
+                System.out.println(e.getMessage());
+            }
+        }
+
         //Check who many files exist in the directory
 
         int count = 0;
