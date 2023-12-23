@@ -1,20 +1,39 @@
 package OOPs.Encapsulation;
 
+import java.util.Scanner;
+
 public class EncapsulationDemo {
     public static void main(String[] args) {
-        EncapDemo ed=new EncapDemo();
-        ed.add();
+        CheckBalance ck=new CheckBalance();
+        ck.checkBalance();
+
 
     }
 }
 
 //Class is the best Example of Encapsulation
-class EncapDemo{
-    private final int a=20;
-    private final int b=40;
+class CheckBalance{
 
-    public void add()
+    private double accountBalance=20384;
+
+    Scanner sc=new Scanner(System.in);
+
+    double AccountNumber=0;
+
+    public void checkBalance()
     {
-        System.out.println("The addtion of two number is = "+(a+b));
+        System.out.println("Enter Your account number..");
+        AccountNumber=sc.nextDouble();
+
+        if(AccountNumber==2003)
+        {
+            System.out.println("Your Account Balance is = "+accountBalance);
+        }
+        else
+        {
+            System.out.println("Please Enter valid Account Number..");
+        }
+
     }
+
 }
