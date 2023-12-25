@@ -16,6 +16,7 @@ public class ThreadExtendProgram {
 }
 
 class Add extends Thread{
+    @Override
     public void run()
     {
         Scanner sc=new Scanner(System.in);
@@ -34,6 +35,7 @@ class Add extends Thread{
 }
 
 class Pattern extends Thread{
+    @Override
     public void run()
     {
         System.out.println("********** If your not Enter the input in 5sec Then The Next Program will be Execute **********");
