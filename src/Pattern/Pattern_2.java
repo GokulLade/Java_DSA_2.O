@@ -7,7 +7,7 @@ public class Pattern_2
         {
             for(int j=0;j<=n;j++) // i=rows
             {
-                if(i==0 || j==0 || i==5 || j==5)  // j=column
+                if(i==0 || j==0 || i==n-1 || j==n-1)  // j=column
                 {
                     System.out.print("*");
                 }

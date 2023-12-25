@@ -9,7 +9,7 @@ public class Pattern_3 {
         for(int i=0;i<=n;i++)
         {
             for(int j=0;j<=n;j++) {
-                if (i ==(n-1)/2 && j<3|| j == 0 || j == n-1)
+                if (j==0 || j==n-1 || i==(n-1)/2)
                 {
                     System.out.print("*");
                 }
