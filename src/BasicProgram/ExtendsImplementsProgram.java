@@ -41,10 +41,8 @@ class Addition1 extends Input1 implements Operations1,Operations2 { //Extends th
     public void add()
     {
         c=a+b;
-
         System.out.println("The Addition of two number is = "+c);
     }
-
     @Override
     public void mul()
     {
