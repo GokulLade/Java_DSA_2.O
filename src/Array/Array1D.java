@@ -1,12 +1,12 @@
 package Array;
 
 public class Array1D {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         //Array Declaration
-        int a[]={10,20,30};
+        int[] a ={10,20,30};
 
-        int b[]=new int[2];
+        int[] b =new int[2];
         b[0]= 30;
         b[1]= 40;
 
