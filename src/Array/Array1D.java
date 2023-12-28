@@ -19,12 +19,12 @@ public class Array1D {
         System.out.println(b[0]);
         System.out.println(b[1]);
 
+
         //Using For-each loop printing
         for(int a1 : a)
         {
             System.out.println(a1);
         }
-
         for(int b1  : b)
         {
             System.out.println(b1);
