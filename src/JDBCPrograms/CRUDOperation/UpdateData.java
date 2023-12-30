@@ -3,40 +3,32 @@ package JDBCPrograms.CRUDOperation;
 import JDBCPrograms.DatabaseConnection.DatabaseConnection;
 
 import java.sql.Connection;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class ReadData
-{
+public class UpdateData {
     public static void main(String[] args) throws SQLException
     {
+        //Create local variable
         Connection con=null;
         Statement stm=null;
-        ResultSet result=null;
 
 //Step-1--->Establish the connection
-        con=DatabaseConnection.getConnection();
+        con= DatabaseConnection.getConnection();
 
 
 //Step-2--->Crate Statement
         stm=con.createStatement();
 
 //Step-4--->Execute the query
-        result=stm.executeQuery("select * from Student");
+        stm.executeUpdate("update Student set id=6 where id=8");
 
 //Step-5--->Process the Result
-        System.out.println("\t\tid\t\trollNo\t\tname\t\tmark");//For Print Column Name
-        while(result.next())
-        {
-            System.out.println("\t\t"+result.getInt(1)+"\t\t "+result.getInt(2)+"\t\t"
-                                +result.getString(3)+"\t\t"+result.getInt(4));
-        }
+        System.out.println("Update Data...");
 
 //Step-6--->close the resources
         con.close();
         stm.close();
+
     }
-
-
 }

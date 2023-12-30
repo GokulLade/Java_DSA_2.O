@@ -26,10 +26,10 @@ public class InsertData {
         stm=con.createStatement();
 
 //Step-4--->Execute the query
-        stm.executeUpdate("insert into student(rollNo, name, mark) values (01,'Gokul',88)");
+        stm.executeUpdate("insert into student(rollNo, name, mark) values (107,'Akash',65)");
 
 //Step-5--->Process the Result
-        System.out.println("Query Executed...");
+        System.out.println("Data Inserted...");
 
 //Step-6--->close the resources
         con.close();
