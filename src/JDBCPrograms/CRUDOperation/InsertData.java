@@ -26,7 +26,7 @@ public class InsertData {
         stm=con.createStatement();
 
 //Step-4--->Execute the query
-        stm.executeUpdate("insert into student(rollNo, name, mark) values (107,'Akash',65)");
+        stm.executeUpdate("insert into student(rollNo, name, mark) values (105,'Nagesh',90)");
 
 //Step-5--->Process the Result
         System.out.println("Data Inserted...");
