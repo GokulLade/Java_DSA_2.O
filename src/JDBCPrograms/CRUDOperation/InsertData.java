@@ -13,8 +13,8 @@ public class InsertData {
     {
 
        //Create local variable
-        Connection con=null;
-        Statement stm=null;
+        Connection con;
+        Statement stm;
 
 //Step-1--->Load and Register the Driver
         Class.forName("com.mysql.cj.jdbc.Driver");
