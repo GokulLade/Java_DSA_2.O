@@ -1,11 +1,11 @@
-package JDBCPrograms.PreparedStatement;
+package JDBCPrograms.PreparedStatement.CRUDOperation;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class Update {
+public class Delete {
     public static void main(String[] args) {
         //Load the Driver
         try {
@@ -21,27 +21,25 @@ public class Update {
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Infosys", "root", "9112");
 
             //insert query
-            String updateQuery = "update employee set name=? where id=?";
+            String deleteQuery = "Delete from employee where id=?";
 
-            //Crete PreparedStatement
-            PreparedStatement pr=con.prepareStatement(updateQuery);
+            //crete PreparedStatement
+            PreparedStatement pr=con.prepareStatement(deleteQuery);
 
-            //set values
-            pr.setString(1,"Ganesh");
-            pr.setInt(2,104);
+            //Set Values
+            pr.setInt(1,106);
 
             //execute query
-            int update=pr.executeUpdate();
+            int delete=pr.executeUpdate();
 
-            if(update>0)
+            if(delete>0)
             {
-                System.out.println("Data Updated... Thank you");
+                System.out.println("Data Deleted... Thank You");
             }
             else
             {
-                System.out.println("Data not Update... Try Again");
+                System.out.println("Data Not Deleted.. try Again");
             }
-
         }
         catch (SQLException se)
         {

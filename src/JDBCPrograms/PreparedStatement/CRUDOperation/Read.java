@@ -1,4 +1,4 @@
-package JDBCPrograms.PreparedStatement;
+package JDBCPrograms.PreparedStatement.CRUDOperation;
 
 import java.sql.*;
 
