@@ -1,4 +1,4 @@
-package JDBCPrograms.CRUDOperation;
+package JDBCPrograms.Statement.CRUDOperation;
 
 //Import my DatabaseConnection Package
 import JDBCPrograms.DatabaseConnection.DatabaseConnection;
