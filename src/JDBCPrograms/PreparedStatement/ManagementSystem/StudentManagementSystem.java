@@ -200,10 +200,7 @@ public class StudentManagementSystem {
                         System.out.println("   id   RollNo   Name   Mark ");
                         while (res.next())
                         {
-                            System.out.print("   "+res.getInt(1));
-                            System.out.print("     "+res.getInt(2));
-                            System.out.print("   "+res.getString(3));
-                            System.out.print("   "+res.getDouble(4));
+                            System.out.println("   "+res.getInt(1)+"     "+res.getInt(2)+"   "+res.getString(3)+"   "+res.getDouble(4));
                         }
 
                         break;
