@@ -8,28 +8,28 @@ public class CopyArrayElements {
         Scanner sc=new Scanner(System.in);
 
         //Array Declaration
-        int arr1[]=new int[5];
-        int arr2[]=new int[5];
+        int a[]=new int[5];
+        int b[]=new int[5];
 
         //Declare variable
         int i;
 
         //Input Array Element
         System.out.println("Enter Array Element : ");
-        for (i=0;i<arr1.length;i++)
+        for (i=0;i<a.length;i++)
         {
-            arr1[i]=sc.nextInt();
+            a[i]=sc.nextInt();
         }
 
         //Copy Array Element
-        for (i=0;i<arr1.length;i++)
+        for (i=0;i<a.length;i++)
         {
-            arr2[i]=arr1[i];
+            a[i]=a[i];
         }
 
         //Print Array Element
         System.out.println("Array Element Are : ");
-        for(int arr : arr2)
+        for(int arr : a)
         {
             System.out.println(arr);
         }
