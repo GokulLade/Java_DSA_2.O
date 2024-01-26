@@ -41,6 +41,7 @@ public class StudentManagementSystem {
                 System.out.println("2. Update Student Information ");
                 System.out.println("3. Delete Student Information ");
                 System.out.println("4. View Student Information ");
+                System.out.println("5. Exist Student Management System Application ");
                 int ch=sc.nextInt();
 
                 switch (ch)
@@ -202,8 +203,12 @@ public class StudentManagementSystem {
                         {
                             System.out.println("   "+res.getInt(1)+"     "+res.getInt(2)+"   "+res.getString(3)+"   "+res.getDouble(4));
                         }
-
                         break;
+
+                    case 5:
+                    {
+                        return;
+                    }
 
                     default:
                         System.out.println("Invalid Input");
