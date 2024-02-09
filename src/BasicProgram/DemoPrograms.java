@@ -63,7 +63,7 @@ interface DefineVar2 extends DefineVar{
 }
 class PrintVar implements DefineVar , DefineVar2
 {
-    void callMethod()
+   void callMethod()
     {
         printData();
     }

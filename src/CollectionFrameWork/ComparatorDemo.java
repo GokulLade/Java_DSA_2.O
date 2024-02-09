@@ -71,7 +71,7 @@ class Student1{
     }
 
     @Override
-    public String toString() //To convert the data in to str
+    public String toString() //To convert the data in to string
     {
         return " "+rollno+" "+name+" "+marks;
     }
