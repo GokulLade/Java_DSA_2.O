@@ -49,7 +49,7 @@ class StringMethod extends StringDeclare{
         System.out.println();
         System.out.println();
         System.out.println();
-        System.out.println("****************   String Methods ****************");
+        System.out.println("**************** String Methods ****************");
         System.out.println(name.toUpperCase());
         System.out.println(name.toLowerCase());
         System.out.println(name.concat("Lade"));
