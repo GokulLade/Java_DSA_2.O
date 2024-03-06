@@ -15,16 +15,19 @@ public class UserArraySize {
         //Declare Array
         int arr[]=new int [size];
 
+        //Declare variable
+        int i;
+
         //Input Array Element
         System.out.println("Please Enter Array Element : ");
-        for(int i=0;i<arr.length;i++)
+        for(i=0;i<arr.length;i++)
         {
             arr[i]=sc.nextInt();
         }
 
         //Print Array Element
         System.out.println("Array Element are : ");
-        for(int b : arr)
+        for( int b : arr)
         {
             System.out.println(b);
         }
