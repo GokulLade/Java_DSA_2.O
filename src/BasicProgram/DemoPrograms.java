@@ -5,26 +5,25 @@ import java.util.Scanner;
 public class DemoPrograms {
     public static void main(String[] args)
     {
-        Scanner sc = new Scanner(System.in);
-
-        PrintVar obj = new PrintVar();
-        obj.callMethod();
-
-        Check c=new Check();
-        c.add();
-        c.add(10);
-
-        MultipleArg mn=new MultipleArg();
-        mn.mul();//Send zero arguments
-        mn.mul(10);
-        mn.mul(10,4,23,21);
-        mn.mul(11,32,1,12,90);//Send multiple arguments
-
-        System.out.println("Enter a character");
-        char ch=sc.next().charAt(0);
-
-        CheckChar ck=new CheckChar(ch);
-
+//        Scanner sc = new Scanner(System.in);
+//
+//        PrintVar obj = new PrintVar();
+//        obj.callMethod();
+//
+//        Check c=new Check();
+//        c.add();
+//        c.add(10);
+//
+//        MultipleArg mn=new MultipleArg();
+//        mn.mul();//Send zero arguments
+//        mn.mul(10);
+//        mn.mul(10,4,23,21);
+//        mn.mul(11,32,1,12,90);//Send multiple arguments
+//
+//        System.out.println("Enter a character");
+//        char ch=sc.next().charAt(0);
+//
+//        CheckChar ck=new CheckChar(ch);
 
 
     }
