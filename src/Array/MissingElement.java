@@ -1,5 +1,7 @@
 package Array;
 
+//Time Complexity=0(n)
+//Space Complexity=0(1)
 public class MissingElement {
     public static void main(String[] args) {
         int arr[]={1,2,3,4,6,7};
