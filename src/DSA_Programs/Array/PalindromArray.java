@@ -1,4 +1,4 @@
-package Array;
+package DSA_Programs.Array;
 
 //Time Complexity=0(n)
 //Space complexity=0(1)

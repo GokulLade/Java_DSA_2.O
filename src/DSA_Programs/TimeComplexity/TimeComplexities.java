@@ -1,4 +1,4 @@
-package TimeComplexity;
+package DSA_Programs.TimeComplexity;
 
 //Finding Time Complexity
 

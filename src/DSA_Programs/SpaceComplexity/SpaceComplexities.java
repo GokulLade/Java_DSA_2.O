@@ -1,6 +1,4 @@
-package SpaceComplexity;
-
-import java.util.Scanner;
+package DSA_Programs.SpaceComplexity;
 
 public class SpaceComplexities {
     public static void main(String[] args)
