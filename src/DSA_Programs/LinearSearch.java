@@ -1,5 +1,7 @@
 package DSA_Programs;
 
+// time complexity: O(N)
+// space complexity: O(1)
 import java.util.Scanner;
 
 public class LinearSearch {
