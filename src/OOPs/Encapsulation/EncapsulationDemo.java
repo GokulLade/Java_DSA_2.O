@@ -7,7 +7,6 @@ public class EncapsulationDemo {
         CheckBalance ck=new CheckBalance();
         ck.checkBalance();
 
-
     }
 }
 
@@ -20,6 +19,9 @@ class CheckBalance{
 
     double AccountNumber=0;
 
+    public double getAccountBalance(){
+        return accountBalance;
+    }
     public void checkBalance()
     {
         System.out.println("Enter Your account number..");
@@ -27,7 +29,7 @@ class CheckBalance{
 
         if(AccountNumber==2003)
         {
-            System.out.println("Your Account Balance is = "+accountBalance);
+            System.out.println("Your Account Balance is = "+getAccountBalance());
         }
         else
         {
